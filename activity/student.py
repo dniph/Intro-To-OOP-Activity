@@ -6,5 +6,10 @@ class Student:
         
     def add_class(self,new_class):
         self.classes.append(new_class)
+        return self.classes
+        
+
+        
+    
         
     
